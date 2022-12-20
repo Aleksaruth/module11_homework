@@ -1,3 +1,5 @@
+//Напишите функцию getPercents(percent, number), которая возвращает {percent} процентов от {number}.
+
 export function getPercents(percent, number) {
     if (percent < 0)
         return "Процент не может быть меньше нуля.";
